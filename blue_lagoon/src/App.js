@@ -17,6 +17,20 @@ function App() {
         >
           Linkedin - Rajath 
         </a>
+        <p>
+        </p>
+        <a
+        className="App-link"
+        href="https://github.com/rajathn8"
+        target="_blank"
+        rel="noopener noreferrer"
+        >
+
+        Github
+
+        </a>
+
+
       </header>
     </div>
   );
