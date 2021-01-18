@@ -7,8 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Portfolio Under Development
-          </code> 
+          /Portfolio Under Development
         </p>
         <a
           className="App-link"
@@ -16,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Linkedin - Rajath Rao
+          Linkedin - Rajath 
         </a>
       </header>
     </div>
