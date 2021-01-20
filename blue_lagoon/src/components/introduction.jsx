@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import "babel-polyfill";
 
 export default class Introduction extends Component {
   render() {
