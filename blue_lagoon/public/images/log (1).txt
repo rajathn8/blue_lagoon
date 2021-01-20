@@ -1,0 +1,126 @@
+2021-01-18T15:17:03.235Z [INFO]: Git SSH Key acquired
+2021-01-18T15:17:03.303Z [INFO]: # Cloning repository: git@github.com:rajathn8/blue_lagoon.git
+2021-01-18T15:17:03.327Z [INFO]: Agent pid 123
+2021-01-18T15:17:03.367Z [INFO]: Identity added: /root/.ssh/git_rsa (/root/.ssh/git_rsa)
+2021-01-18T15:17:03.614Z [INFO]: Cloning into 'blue_lagoon'...
+2021-01-18T15:17:04.339Z [INFO]: Warning: Permanently added the RSA host key for IP address '13.234.176.102' to the list of known hosts.
+2021-01-18T15:17:07.184Z [INFO]: # Switching to commit: 3adbae9f821932f3e9c65d8fab788879a339549e
+2021-01-18T15:17:07.340Z [INFO]: Agent pid 136
+2021-01-18T15:17:07.343Z [INFO]: Identity added: /root/.ssh/git_rsa (/root/.ssh/git_rsa)
+2021-01-18T15:17:07.348Z [INFO]: Note: switching to '3adbae9f821932f3e9c65d8fab788879a339549e'.
+                                 You are in 'detached HEAD' state. You can look around, make experimental
+                                 changes and commit them, and you can discard any commits you make in this
+                                 state without impacting any branches by switching back to a branch.
+                                 If you want to create a new branch to retain commits you create, you may
+                                 do so (now or later) by using -c with the switch command. Example:
+                                 git switch -c <new-branch-name>
+                                 Or undo this operation with:
+                                 git switch -
+                                 Turn off this advice by setting config variable advice.detachedHead to false
+2021-01-18T15:17:07.348Z [INFO]: HEAD is now at 3adbae9 blue lagoon port
+2021-01-18T15:17:07.353Z [INFO]: Successfully cleaned up Git credentials
+2021-01-18T15:17:07.354Z [INFO]: # Checking for Git submodules at: /codebuild/output/src062430445/src/blue_lagoon/.gitmodules
+2021-01-18T15:17:07.386Z [INFO]: # Retrieving cache...
+2021-01-18T15:17:07.457Z [INFO]: # Extracting cache...
+2021-01-18T15:17:07.465Z [INFO]: # Extraction completed
+2021-01-18T15:17:07.465Z [INFO]: # Retrieving environment cache...
+2021-01-18T15:17:07.507Z [INFO]: # Retrieved environment cache
+2021-01-18T15:17:21.721Z [INFO]: ## Starting Frontend Build
+                                 # Starting phase: preBuild
+                                 # Executing command: npm ci
+2021-01-18T15:17:31.803Z [INFO]: > core-js-pure@3.8.2 postinstall /codebuild/output/src062430445/src/blue_lagoon/blue_lagoon/node_modules/core-js-pure
+                                 > node -e "try{require('./postinstall')}catch(e){}"
+2021-01-18T15:17:31.844Z [INFO]: [96mThank you for using core-js ([94m https://github.com/zloirock/core-js [96m) for polyfilling JavaScript standard library![0m
+                                 [96mThe project needs your help! Please consider supporting of core-js on Open Collective or Patreon: [0m
+                                 [96m>[94m https://opencollective.com/core-js [0m
+                                 [96m>[94m https://www.patreon.com/zloirock [0m
+                                 [96mAlso, the author of core-js ([94m https://github.com/zloirock [96m) is looking for a good job -)[0m
+2021-01-18T15:17:31.945Z [INFO]: > core-js@2.6.12 postinstall /codebuild/output/src062430445/src/blue_lagoon/blue_lagoon/node_modules/babel-runtime/node_modules/core-js
+                                 > node -e "try{require('./postinstall')}catch(e){}"
+2021-01-18T15:17:32.007Z [INFO]: > ejs@2.7.4 postinstall /codebuild/output/src062430445/src/blue_lagoon/blue_lagoon/node_modules/ejs
+                                 > node ./postinstall.js
+2021-01-18T15:17:32.041Z [INFO]: Thank you for installing [35mEJS[0m: built with the [32mJake[0m JavaScript build tool ([32mhttps://jakejs.com/[0m)
+2021-01-18T15:17:32.201Z [INFO]: > fsevents@1.2.13 install /codebuild/output/src062430445/src/blue_lagoon/blue_lagoon/node_modules/webpack-dev-server/node_modules/fsevents
+                                 > node install.js
+2021-01-18T15:17:32.238Z [INFO]: 
+2021-01-18T15:17:32.238Z [INFO]: Skipping 'fsevents' build as platform linux is not supported
+2021-01-18T15:17:32.264Z [INFO]: > fsevents@1.2.13 install /codebuild/output/src062430445/src/blue_lagoon/blue_lagoon/node_modules/watchpack-chokidar2/node_modules/fsevents
+                                 > node install.js
+2021-01-18T15:17:32.298Z [INFO]: 
+2021-01-18T15:17:32.299Z [INFO]: Skipping 'fsevents' build as platform linux is not supported
+2021-01-18T15:17:32.442Z [INFO]: > core-js@3.8.2 postinstall /codebuild/output/src062430445/src/blue_lagoon/blue_lagoon/node_modules/core-js
+                                 > node -e "try{require('./postinstall')}catch(e){}"
+2021-01-18T15:17:32.918Z [INFO]: added 1938 packages in 10.294s
+2021-01-18T15:17:32.931Z [INFO]: # Completed phase: preBuild
+                                 # Starting phase: build
+2021-01-18T15:17:32.932Z [INFO]: # Executing command: npm run build
+2021-01-18T15:17:33.082Z [INFO]: > blue_lagoon@0.1.0 build /codebuild/output/src062430445/src/blue_lagoon/blue_lagoon
+                                 > react-scripts build
+2021-01-18T15:17:34.113Z [INFO]: Creating an optimized production build...
+2021-01-18T15:17:39.326Z [INFO]: Failed to compile.
+2021-01-18T15:17:39.328Z [INFO]: src/App.js
+                                 Syntax error: Expected corresponding JSX closing tag for <p> (11:11)
+                                 9 |         <p>
+                                 10 |           Portfolio Under Development
+                                 > 11 |           </code>
+                                 |           ^
+                                 12 |         </p>
+                                 13 |         <a
+                                 14 |           className="App-link"
+2021-01-18T15:17:39.342Z [WARNING]: npm
+2021-01-18T15:17:39.342Z [WARNING]: ERR! code ELIFECYCLE
+                                    npm ERR! errno 1
+2021-01-18T15:17:39.345Z [WARNING]: npm
+2021-01-18T15:17:39.346Z [WARNING]: ERR! blue_lagoon@0.1.0 build: `react-scripts build`
+                                    npm ERR! Exit status 1
+                                    npm ERR!
+                                    npm ERR! Failed at the blue_lagoon@0.1.0 build script.
+                                    npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+2021-01-18T15:17:39.395Z [WARNING]: 
+2021-01-18T15:17:39.395Z [WARNING]: npm ERR! A complete log of this run can be found in:
+                                    npm ERR!     /root/.npm/_logs/2021-01-18T15_17_39_347Z-debug.log
+2021-01-18T15:17:39.395Z [HELP]: Outputting the npm debug log
+                                 0 info it worked if it ends with ok
+                                 1 verbose cli [
+                                 1 verbose cli   '/root/.nvm/versions/node/v12.19.0/bin/node',
+                                 1 verbose cli   '/root/.nvm/versions/node/v12.19.0/bin/npm',
+                                 1 verbose cli   'run',
+                                 1 verbose cli   'build'
+                                 1 verbose cli ]
+                                 2 info using npm@6.14.8
+                                 3 info using node@v12.19.0
+                                 4 verbose run-script [ 'prebuild', 'build', 'postbuild' ]
+                                 5 info lifecycle blue_lagoon@0.1.0~prebuild: blue_lagoon@0.1.0
+                                 6 info lifecycle blue_lagoon@0.1.0~build: blue_lagoon@0.1.0
+                                 7 verbose lifecycle blue_lagoon@0.1.0~build: unsafe-perm in lifecycle true
+                                 8 verbose lifecycle blue_lagoon@0.1.0~build: PATH: /root/.nvm/versions/node/v12.19.0/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/codebuild/output/src062430445/src/blue_lagoon/blue_lagoon/node_modules/.bin:/usr/local/rvm/gems/ruby-2.4.6/bin:/usr/local/rvm/gems/ruby-2.4.6@global/bin:/usr/local/rvm/rubies/ruby-2.4.6/bin:/usr/local/rvm/bin:/root/.yarn/bin:/root/.config/yarn/global/node_modules/.bin:/root/.nvm/versions/node/v12.19.0/bin:/root/.local/bin:/root/.local/bin:/usr/local/rvm/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.dotnet/tools
+                                 9 verbose lifecycle blue_lagoon@0.1.0~build: CWD: /codebuild/output/src062430445/src/blue_lagoon/blue_lagoon
+                                 10 silly lifecycle blue_lagoon@0.1.0~build: Args: [ '-c', 'react-scripts build' ]
+                                 11 silly lifecycle blue_lagoon@0.1.0~build: Returned: code: 1  signal: null
+                                 12 info lifecycle blue_lagoon@0.1.0~build: Failed to exec build script
+                                 13 verbose stack Error: blue_lagoon@0.1.0 build: `react-scripts build`
+                                 13 verbose stack Exit status 1
+                                 13 verbose stack     at EventEmitter.<anonymous> (/root/.nvm/versions/node/v12.19.0/lib/node_modules/npm/node_modules/npm-lifecycle/index.js:332:16)
+                                 13 verbose stack     at EventEmitter.emit (events.js:314:20)
+                                 13 verbose stack     at ChildProcess.<anonymous> (/root/.nvm/versions/node/v12.19.0/lib/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:55:14)
+                                 13 verbose stack     at ChildProcess.emit (events.js:314:20)
+                                 13 verbose stack     at maybeClose (internal/child_process.js:1021:16)
+                                 13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:286:5)
+                                 14 verbose pkgid blue_lagoon@0.1.0
+                                 15 verbose cwd /codebuild/output/src062430445/src/blue_lagoon/blue_lagoon
+                                 16 verbose Linux 4.14.203-116.332.amzn1.x86_64
+                                 17 verbose argv "/root/.nvm/versions/node/v12.19.0/bin/node" "/root/.nvm/versions/node/v12.19.0/bin/npm" "run" "build"
+                                 18 verbose node v12.19.0
+                                 19 verbose npm  v6.14.8
+                                 20 error code ELIFECYCLE
+                                 21 error errno 1
+                                 22 error blue_lagoon@0.1.0 build: `react-scripts build`
+                                 22 error Exit status 1
+                                 23 error Failed at the blue_lagoon@0.1.0 build script.
+                                 23 error This is probably not a problem with npm. There is likely additional logging output above.
+                                 24 verbose exit [ 1, true ]
+2021-01-18T15:17:39.397Z [ERROR]: !!! Build failed
+2021-01-18T15:17:39.397Z [ERROR]: !!! Non-Zero Exit Code detected
+2021-01-18T15:17:39.398Z [INFO]: # Starting environment caching...
+2021-01-18T15:17:39.398Z [INFO]: # Environment caching completed
+Terminating logging...
